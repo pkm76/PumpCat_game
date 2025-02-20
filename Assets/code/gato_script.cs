@@ -87,13 +87,13 @@ public class gato_script : MonoBehaviour
         if (collision.gameObject.CompareTag("enemy"))
         {
             can_move = false;
-            Debug.Log("can_move=false");
+            //Debug.Log("can_move=false");
         }
         else
 
         {
             can_move = true;
-            Debug.Log("can_move=true");
+            //Debug.Log("can_move=true");
         }
       
 
